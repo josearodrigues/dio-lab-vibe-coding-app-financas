@@ -79,11 +79,10 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 ## Demonstração (Imagens do App)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/21a65ea3-4e7a-418c-ab0a-ee2e3a5acafa" width="400" />
-  <img src="https://github.com/user-attachments/assets/89b273bd-f5bc-4787-b598-b0504c59834e" width="1800" />
-  <img src="https://github.com/user-attachments/assets/4743ea20-6a00-45a6-ae24-43580db3030a" width="1800" />
-  <img src="https://github.com/user-attachments/assets/949d9830-e0b0-4c1e-87cc-54c60c8b3d49" width="1800" />
-  <img src="https://github.com/user-attachments/assets/c1a79b29-ac8f-42b0-9735-f5dccb41c0ad" width="1800" />
+  <img src="https://github.com/user-attachments/assets/21a65ea3-4e7a-418c-ab0a-ee2e3a5acafa" width="300" />
+  <img src="https://github.com/user-attachments/assets/89b273bd-f5bc-4787-b598-b0504c59834e" width="800" />
+  <img src="https://github.com/user-attachments/assets/4743ea20-6a00-45a6-ae24-43580db3030a" width="800" />
+  <img src="https://github.com/user-attachments/assets/949d9830-e0b0-4c1e-87cc-54c60c8b3d49" width="800" />
 </p>
 
 ---
@@ -113,24 +112,15 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
   Interface inclusiva, com suporte a diferentes formatos de interação (texto e voz), contraste adequado e navegação intuitiva.  
   Pensado para oferecer boa experiência ao maior número possível de usuários.
 
-- **Persistência de Dados**  
-  Histórico de transações e conversas armazenados em banco de dados seguro, permitindo continuidade no uso sem perda de informações.
-
-- **Correções e Ajustes Dinâmicos**  
-  O app evolui conforme feedback dos usuários, corrigindo fluxos como depósitos em metas e interpretação de entradas específicas.
-
 ---
 
 ## Reflexão
 
-- **O que funcionou bem:**  
-  A criação do layout e da aplicação.  
+- **O que funcionou bem?**  
+  O PRD refinado com o Copilot acelerou a criação da aplicação, mesmo com poucos créditos no Lovable.
 
-- **O que não funcionou como esperado:**  
-  - Ausência inicial da caixa de entrada no chat.  
-  - Dificuldade em registrar depósitos corretamente nas metas.  
-  - Necessidade de solicitar integração com IA e persistência de dados manualmente.  
-  - Limitação de créditos no Lovable, dificultando a continuidade da aplicação.  
+- **O que não funcionou como esperado?**  
+  A limitação de interações reduziu a experimentação, mas ainda assim trouxe aprendizado importante sobre Vibe Coding.
 
-- **O que aprendi sobre conversar com IAs:**  
+- **O que aprendi sobre conversar com IAs?**  
   Sem o prompt ideal, a conversa não flui como esperado. É como conversar com alguém que ainda não conhece você. A clareza e técnica no pedido são essenciais para obter bons resultados.
