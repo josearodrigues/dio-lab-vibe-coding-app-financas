@@ -1,6 +1,7 @@
 # App de Organização de Finanças Pessoais com Vibe Coding
 
-Este projeto foi desenvolvido no **Lovable** utilizando a abordagem de **Vibe Coding**, com base em um PRD (Product Requirements Document) que define claramente o problema, público-alvo e funcionalidades principais.  
+Este projeto foi desenvolvido como parte de um **Desafio de Projetos da DIO**, utilizando o **Lovable** e o **Copilot Web**.  
+A abordagem aplicada foi o **Vibe Coding**, com base em um **PRD (Product Requirements Document)** que define claramente o problema, público-alvo e funcionalidades principais.  
 O objetivo é oferecer uma experiência de controle financeiro simples, acessível e inclusiva, baseada em conversas em linguagem natural.
 
 ---
