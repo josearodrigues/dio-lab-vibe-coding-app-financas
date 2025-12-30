@@ -1,4 +1,4 @@
-# App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização de Finanças Pessoais com Vibe Coding
 
 Este projeto foi desenvolvido como parte de um **Desafio de Projetos da DIO**, utilizando o **Lovable** e o **Copilot Web**.  
 A abordagem aplicada foi o **Vibe Coding**, com base em um **PRD (Product Requirements Document)** que define claramente o problema, público-alvo e funcionalidades principais.  
@@ -6,7 +6,7 @@ O objetivo é oferecer uma experiência de controle financeiro simples, acessív
 
 ---
 
-## PRD Final (refinado no Copilot Web)
+## 📑 PRD Final (refinado no Copilot Web)
 
 ```markdown
 # PRD – Aplicativo de Organização de Finanças Pessoais
@@ -54,7 +54,7 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 ```
 
 ---
-## Interações no Lovable
+## 🔧 Interações no Lovable
 
 27/12/2025
 
@@ -89,12 +89,12 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 
 ---
 
-## Link para o App
+## 🔗 Link para o App
 [Converse Cash Flow no Lovable](https://converse-cash-flow.lovable.app/)
 
 ---
 
-## Demonstração (Imagens do App)
+## 📸 Demonstração (Imagens do App)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/21a65ea3-4e7a-418c-ab0a-ee2e3a5acafa" width="300" />
@@ -105,7 +105,7 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 
 ---
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - **Chat Financeiro Inteligente**  
   Registro de gastos e entradas por meio de conversas em linguagem natural.  
@@ -137,8 +137,27 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
   - Melhorias: modo escuro com contraste AA/AAA, foco visível, tipografia ajustável e onboarding conversacional curto (3 passos).
 
 ---
+## 🛠️ Roadmap
 
-## Reflexão
+### ✅ Concluído
+- Criação do app com base no PRD.  
+- Integração da API OpenAI para interpretação em linguagem natural.  
+- Persistência de dados para transações e histórico de conversas.  
+- Correção da caixa de entrada do chat (texto/voz).  
+- Ajuste no fluxo de depósitos para metas financeiras.  
+- Relatórios visuais básicos (entradas, saídas, saldo).  
+
+### 🚧 Melhorias recentes
+- Edição rápida de transações no chat.  
+- Metas com micro‑passos semanais e progresso visual simplificado.  
+- Relatórios reduzidos a gráficos essenciais + resumo em linguagem natural.  
+- Insights semanais do agente financeiro com dicas práticas.  
+- Modo escuro com contraste AA/AAA.  
+- Onboarding conversacional curto (3 passos).  
+- Melhorias de acessibilidade: foco visível, fonte ajustável, linguagem simples.  
+
+---
+## 🤔 Reflexão
 
 - **O que funcionou bem?**  
   O PRD refinado com o Copilot acelerou a criação da aplicação, mesmo com poucos créditos no Lovable.
