@@ -56,11 +56,15 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 ---
 ## Interações no Lovable
 
+27/12/2025
+
 > Crie um app de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): [PRD]
 
 > Integre a API OpenAI para que o assistente entenda melhor linguagem natural, categorizando gastos de forma mais inteligente e gerando dicas personalizadas com IA.
 
 > Adicione persistência de dados com banco de dados para salvar transações e histórico de conversas do usuário.
+
+28/12/2025
 
 > Adicione a funcionalidade de atualizar o valor atual das metas, permitindo registrar depósitos e acompanhar o progresso.
 
@@ -69,6 +73,19 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 > Parece que não é visualizada a caixa de entrada do chat. Verifique novamente...
 
 > No chat, pedi para depositar em minha meta de reserva de emergência e ele somente computou como um investimento no mês, mexendo no cálculo de entradas e saídas mas não na meta. Poderia corrigir?
+
+30/12/2025
+
+> Você já recebeu o PRD do app de finanças pessoais. Quero apenas um incremento objetivo no MVP, com o menor número possível de alterações e telas novas. Priorize acessibilidade e fluxo conversacional. Implementar:
+>   1. Modo escuro com contraste AA/AAA, toggle manual e seguir sistema; manter tipografia e hierarquia atuais.
+>   2. Onboarding conversacional curto (3 passos) com exemplos de frases e confirmação de categoria.
+>   3. Cartões de edição rápida no chat: corrigir valor, categoria e data sem reescrever.
+>   4. Metas com micro‑passos semanais e progresso visual simples.
+>   5. Relatórios reduzidos a 2–3 gráficos essenciais + resumo em linguagem natural.
+>   6. Insights do agente em 1 bloco semanal com dicas práticas, nada complexo.
+>   7. Acessibilidade: foco visível, tamanho de fonte ajustável e linguagem simples. Manter estrutura do projeto atual. Não invente novas telas além de chat, metas e relatórios. Evite integrações externas. Entregue só os componentes e estilos necessários para essas mudanças.
+
+> Sim. (O cartão de edição está pronto como componente, mas ainda precisa ser integrado ao chat para permitir edição inline das transações. Deseja que eu continue essa integração?)
 
 ---
 
@@ -92,26 +109,32 @@ Solução proposta: criar uma experiência conversacional que registre gastos au
 
 - **Chat Financeiro Inteligente**  
   Registro de gastos e entradas por meio de conversas em linguagem natural.  
-  Exemplo: "Gastei R$50 no mercado" → o app interpreta e registra automaticamente.
+  Exemplo: "Gastei R$50 no mercado" → o app interpreta e registra automaticamente.  
+  - Melhorias: inclusão da caixa de entrada (texto/voz) e suporte a edição rápida de transações diretamente no chat.
 
 - **Classificação Automática de Transações**  
-  As despesas e receitas são categorizadas de forma inteligente (alimentação, transporte, lazer, investimentos etc.), sem necessidade de configuração manual.
+  As despesas e receitas são categorizadas de forma inteligente (alimentação, transporte, lazer, investimentos etc.), sem necessidade de configuração manual.  
+  - Melhorias: integração com IA para categorização mais precisa e dicas personalizadas.
 
 - **Gestão de Metas Financeiras**  
   Criação de metas personalizadas (ex.: reserva de emergência, viagem, quitar dívidas).  
-  O usuário pode registrar depósitos e acompanhar o progresso em tempo real.
+  O usuário pode registrar depósitos e acompanhar o progresso em tempo real.  
+  - Melhorias: correção no fluxo de depósitos (agora contabilizados diretamente na meta) e introdução de micro‑passos semanais com progresso visual simples.
 
 - **Assistente Financeiro com IA**  
   Recomendações de economia e insights sobre hábitos de consumo, adaptados ao perfil do usuário.  
-  Exemplo: alertas sobre gastos recorrentes ou dicas para atingir metas mais rápido.
+  Exemplo: alertas sobre gastos recorrentes ou dicas para atingir metas mais rápido.  
+  - Melhorias: bloco semanal de insights práticos, simplificados e objetivos.
 
 - **Relatórios Visuais e Personalizados**  
   Gráficos e resumos semanais/mensais que mostram entradas, saídas, saldo e evolução das metas.  
-  Interface clara e acessível, com foco em iniciantes.
+  Interface clara e acessível, com foco em iniciantes.  
+  - Melhorias: relatórios reduzidos a 2–3 gráficos essenciais e resumo em linguagem natural.
 
 - **Design Universal e Acessibilidade**  
   Interface inclusiva, com suporte a diferentes formatos de interação (texto e voz), contraste adequado e navegação intuitiva.  
-  Pensado para oferecer boa experiência ao maior número possível de usuários.
+  Pensado para oferecer boa experiência ao maior número possível de usuários.  
+  - Melhorias: modo escuro com contraste AA/AAA, foco visível, tipografia ajustável e onboarding conversacional curto (3 passos).
 
 ---
 
